@@ -9,8 +9,8 @@ Este projeto é uma **Base de Conhecimento Interativa** e fácil de usar sobre p
 O projeto foi desenvolvido como parte da **Imersão Dev com Google 10ª Edição da Alura**.
 
 ## 📸 Preview
-
-![Guia de Primeiros Socorros](./screenshot.png)
+![Preview projeto de Primeiros Socorros](./img/print-01.png)
+![Preview projeto de Primeiros Socorros](./img/print-02.png)
 
 ### Funcionalidades Principais
 
