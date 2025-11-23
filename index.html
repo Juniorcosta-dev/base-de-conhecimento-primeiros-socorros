@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Base de conhecimento sobre primeiros socorros. Aprenda como agir em emergências como engasgo, infarto, queimaduras e mais."
+        />
+        <meta
+            name="keywords"
+            content="primeiros socorros, emergência, saúde, SAMU, engasgo, infarto, queimadura"
+        />
+        <meta name="author" content="Seu Nome" />
+        <meta name="theme-color" content="#e53935" />
+
+        <title>Primeiros Socorros - Base de Conhecimento</title>
+
+        <!-- Favicon -->
+        <link
+            rel="icon"
+            href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/First_Aid_Icon.svg/64px-First_Aid_Icon.svg.png"
+            type="image/png"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Cabeçalho -->
+        <header role="banner">
+            <h1>Primeiros Socorros - Base de Conhecimento</h1>
+
+            <search class="busca-container">
+                <label for="campo-busca" class="sr-only">
+                    Buscar procedimento de emergência
+                </label>
+                <input
+                    id="campo-busca"
+                    type="search"
+                    placeholder="Buscar: engasgo, queimadura, infarto..."
+                    aria-label="Buscar procedimento de emergência"
+                    autocomplete="off"
+                />
+                <button
+                    id="botao-busca"
+                    type="button"
+                    aria-label="Iniciar busca"
+                    onclick="validarEbuscar()"
+                >
+                    🔍 Buscar
+                </button>
+            </search>
+        </header>
+
+        <!-- Conteúdo Principal -->
+        <main role="main">
+            <!-- Informação de emergência fixa -->
+            <aside
+                class="info-emergencia"
+                role="complementary"
+                aria-label="Números de emergência"
+            >
+                <p>
+                    <strong>📞 Emergência:</strong>
+                    <a href="tel:192" title="Ligar para SAMU">SAMU 192</a> |
+                    <a href="tel:193" title="Ligar para Bombeiros"
+                        >Bombeiros 193</a
+                    >
+                    |
+                    <a href="tel:08007226001" title="Ligar para CIATOX"
+                        >CIATOX 0800-722-6001</a
+                    >
+                </p>
+            </aside>
+
+            <!-- Container dos cards -->
+            <section
+                class="card-container"
+                aria-label="Lista de procedimentos de primeiros socorros"
+            >
+                <!-- Cards serão inseridos aqui via JavaScript -->
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer class="footer" role="contentinfo">
+            <nav aria-label="Links do rodapé">
+                <ul class="footer-links">
+                    <li>
+                        <a
+                            href="https://github.com/seu-usuario"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://pt.wikipedia.org/wiki/Primeiros_socorros"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Sobre Primeiros Socorros
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.gov.br/saude"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Ministério da Saúde
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="footer-aviso">
+                ⚠️ Este site é apenas informativo. Em caso de emergência, ligue
+                imediatamente para o SAMU (192).
+            </p>
+            <p class="footer-aviso">
+                Projeto Imersão Dev com Google 10ª Edição <a href="https://www.alura.com.br/" target="_blank">Alura</a>
+            </p>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="./script.js"></script>
+    </body>
+</html>

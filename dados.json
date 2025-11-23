@@ -1,0 +1,876 @@
+{
+    "procedimentos": [
+        {
+            "id": 1,
+            "nome": "Engasgo em Adulto",
+            "categoria": "Respiratório",
+            "gravidade": "alta",
+            "icone": "🫁",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Abdominal_thrusts_demonstration.jpg/640px-Abdominal_thrusts_demonstration.jpg",
+            "sinais": [
+                "Pessoa leva as mãos ao pescoço",
+                "Não consegue falar, tossir ou respirar",
+                "Lábios e unhas ficando roxos",
+                "Desespero e pânico"
+            ],
+            "oqueFazer": [
+                "Pergunte: 'Você está engasgado?' - Se acenar sim, aja imediatamente",
+                "Posicione-se atrás da pessoa e abrace-a pela cintura",
+                "Feche uma mão em punho e coloque acima do umbigo",
+                "Com a outra mão, segure o punho e faça compressões rápidas para dentro e para cima",
+                "Repita até o objeto sair ou a pessoa desmaiar"
+            ],
+            "oqueNaoFazer": [
+                "Não dê tapas nas costas se a pessoa ainda consegue tossir",
+                "Não tente tirar o objeto com os dedos às cegas",
+                "Não ofereça água"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) se a pessoa desmaiar ou se após várias tentativas o objeto não sair",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Manobra_de_Heimlich"
+        },
+        {
+            "id": 2,
+            "nome": "Engasgo em Bebê",
+            "categoria": "Respiratório",
+            "gravidade": "alta",
+            "icone": "👶",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Back_slaps_for_infants.png/640px-Back_slaps_for_infants.png",
+            "sinais": [
+                "Bebê não consegue chorar ou tossir",
+                "Dificuldade para respirar",
+                "Pele ficando azulada",
+                "Movimentos de sucção sem som"
+            ],
+            "oqueFazer": [
+                "Coloque o bebê de bruços sobre seu antebraço, com a cabeça mais baixa",
+                "Apoie a cabeça do bebê com sua mão",
+                "Dê 5 tapas firmes entre as escápulas (costas) com a base da mão",
+                "Vire o bebê de barriga para cima e faça 5 compressões no centro do peito",
+                "Alterne até o objeto sair ou o bebê desmaiar"
+            ],
+            "oqueNaoFazer": [
+                "Nunca sacuda o bebê",
+                "Não tente tirar o objeto com o dedo às cegas",
+                "Não faça a manobra de Heimlich como em adultos"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) imediatamente enquanto faz as manobras",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Engasgo"
+        },
+        {
+            "id": 3,
+            "nome": "Parada Respiratória",
+            "categoria": "Respiratório",
+            "gravidade": "alta",
+            "icone": "💨",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Checking_respiration.jpg/640px-Checking_respiration.jpg",
+            "sinais": [
+                "Pessoa inconsciente",
+                "Peito não sobe e desce",
+                "Não sente ar saindo pelo nariz ou boca",
+                "Lábios arroxeados"
+            ],
+            "oqueFazer": [
+                "Chame ajuda e peça para alguém ligar 192",
+                "Deite a pessoa de costas em superfície firme",
+                "Incline a cabeça para trás levantando o queixo (abre as vias aéreas)",
+                "Verifique se há algo bloqueando a boca",
+                "Se souber, inicie respiração boca a boca: 2 sopros a cada 30 compressões"
+            ],
+            "oqueNaoFazer": [
+                "Não perca tempo - cada segundo conta",
+                "Não deixe a pessoa sozinha",
+                "Não dê água ou alimentos"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) IMEDIATAMENTE - é uma emergência crítica",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Parada_respirat%C3%B3ria"
+        },
+        {
+            "id": 4,
+            "nome": "Infarto (Ataque Cardíaco)",
+            "categoria": "Cardíaco",
+            "gravidade": "alta",
+            "icone": "❤️",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Heart_attack_diagram.png/640px-Heart_attack_diagram.png",
+            "sinais": [
+                "Dor forte no peito que pode irradiar para braço esquerdo, pescoço ou costas",
+                "Sensação de aperto ou peso no peito",
+                "Falta de ar e suor frio",
+                "Náusea e tontura",
+                "Em mulheres: pode ser só cansaço extremo e dor nas costas"
+            ],
+            "oqueFazer": [
+                "Ligue 192 (SAMU) imediatamente",
+                "Mantenha a pessoa calma e sentada ou recostada",
+                "Afrouxe roupas apertadas",
+                "Se a pessoa tiver AAS infantil e não for alérgica, dê 2 comprimidos para mastigar",
+                "Não deixe a pessoa sozinha e monitore a respiração"
+            ],
+            "oqueNaoFazer": [
+                "Não deixe a pessoa fazer esforço físico",
+                "Não dê água em excesso",
+                "Não ignore os sintomas achando que é só mal-estar"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) IMEDIATAMENTE ao suspeitar de infarto",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Infarto_agudo_do_mioc%C3%A1rdio"
+        },
+        {
+            "id": 5,
+            "nome": "Parada Cardíaca / RCP",
+            "categoria": "Cardíaco",
+            "gravidade": "alta",
+            "icone": "🫀",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/US_Army_52862_CPR.jpg/640px-US_Army_52862_CPR.jpg",
+            "sinais": [
+                "Pessoa inconsciente e não responde",
+                "Não está respirando ou respiração anormal (gasping)",
+                "Sem pulso detectável"
+            ],
+            "oqueFazer": [
+                "Confirme que a pessoa não responde: chame alto e sacuda os ombros",
+                "Peça para alguém ligar 192 e buscar um DEA se disponível",
+                "Inicie RCP: coloque a base de uma mão no centro do peito",
+                "Entrelace as mãos e comprima forte e rápido (5-6cm de profundidade)",
+                "Faça 100 a 120 compressões por minuto (ritmo da música Stayin' Alive)",
+                "Não pare até o SAMU chegar ou a pessoa reagir"
+            ],
+            "oqueNaoFazer": [
+                "Não perca tempo buscando pulso por muito tempo",
+                "Não faça compressões fracas - é melhor forte demais",
+                "Não interrompa as compressões por mais de 10 segundos"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) IMEDIATAMENTE - cada minuto sem RCP reduz 10% a chance de sobreviver",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Reanima%C3%A7%C3%A3o_cardiopulmonar"
+        },
+        {
+            "id": 6,
+            "nome": "Desmaio",
+            "categoria": "Cardíaco",
+            "gravidade": "média",
+            "icone": "😵",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Recovery_position.svg/640px-Recovery_position.svg.png",
+            "sinais": [
+                "Perda súbita de consciência",
+                "Palidez e suor frio antes de cair",
+                "Tontura e visão escurecendo",
+                "Recuperação geralmente rápida (segundos a minutos)"
+            ],
+            "oqueFazer": [
+                "Ampare a pessoa para evitar que se machuque na queda",
+                "Deite-a de costas e eleve as pernas acima do nível do coração",
+                "Afrouxe roupas apertadas (cinto, gravata, sutiã)",
+                "Vire o rosto de lado caso vomite",
+                "Quando acordar, mantenha-a deitada por alguns minutos antes de sentar"
+            ],
+            "oqueNaoFazer": [
+                "Não jogue água no rosto",
+                "Não sacuda a pessoa violentamente",
+                "Não dê nada para comer ou beber enquanto inconsciente",
+                "Não deixe a pessoa levantar rápido após acordar"
+            ],
+            "quandoChamarAjuda": "Ligue 192 se o desmaio durar mais de 1 minuto, se a pessoa não se recuperar completamente, ou se tiver dor no peito",
+            "saibaMais": "https://pt.wikipedia.org/wiki/S%C3%ADncope_(medicina)"
+        },
+        {
+            "id": 7,
+            "nome": "Queimadura Térmica",
+            "categoria": "Queimaduras",
+            "gravidade": "média",
+            "icone": "🔥",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Hand_burned_with_hot_water.jpg/640px-Hand_burned_with_hot_water.jpg",
+            "sinais": [
+                "Pele vermelha e dolorida (1º grau)",
+                "Bolhas com líquido (2º grau)",
+                "Pele branca, marrom ou preta, sem dor (3º grau - grave)"
+            ],
+            "oqueFazer": [
+                "Afaste a pessoa da fonte de calor",
+                "Resfrie a área com água corrente fria por 10-20 minutos",
+                "Remova anéis, pulseiras e roupas antes que inche (se não estiverem grudados)",
+                "Cubra com pano limpo e úmido",
+                "Para queimaduras pequenas: mantenha limpo e hidratado"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA use pasta de dente, manteiga, clara de ovo ou borra de café",
+                "Não estoure as bolhas",
+                "Não remova roupas grudadas na pele",
+                "Não use gelo diretamente na queimadura",
+                "Não use algodão (gruda na ferida)"
+            ],
+            "quandoChamarAjuda": "Ligue 192 se: queimadura maior que a palma da mão, for no rosto/mãos/genitais, for de 3º grau, ou a vítima for criança/idoso",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Queimadura"
+        },
+        {
+            "id": 8,
+            "nome": "Queimadura Química",
+            "categoria": "Queimaduras",
+            "gravidade": "alta",
+            "icone": "⚗️",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Hazard_C.svg/640px-Hazard_C.svg.png",
+            "sinais": [
+                "Dor intensa e ardência",
+                "Vermelhidão ou descoloração da pele",
+                "Bolhas ou descamação",
+                "Produto químico visível na pele"
+            ],
+            "oqueFazer": [
+                "Remova roupas e acessórios contaminados (use luvas se possível)",
+                "Lave abundantemente com água corrente por pelo menos 20 minutos",
+                "Se atingir os olhos, lave com água corrente por 20 minutos mantendo os olhos abertos",
+                "Identifique o produto químico para informar ao médico",
+                "Cubra com pano limpo após lavar bem"
+            ],
+            "oqueNaoFazer": [
+                "Não tente neutralizar o químico com outro produto",
+                "Não use pouca água - precisa ser em abundância",
+                "Não esfregue a área afetada",
+                "Não aplique pomadas ou cremes"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) imediatamente em qualquer queimadura química",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Queimadura_qu%C3%ADmica"
+        },
+        {
+            "id": 9,
+            "nome": "Choque Elétrico",
+            "categoria": "Queimaduras",
+            "gravidade": "alta",
+            "icone": "⚡",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/High_voltage_warning.svg/640px-High_voltage_warning.svg.png",
+            "sinais": [
+                "Queimaduras nos pontos de entrada e saída da corrente",
+                "Confusão ou inconsciência",
+                "Dificuldade para respirar",
+                "Batimentos cardíacos irregulares"
+            ],
+            "oqueFazer": [
+                "PRIMEIRO: desligue a fonte de energia ou afaste a pessoa com material não condutor (madeira, borracha)",
+                "Verifique se a pessoa está respirando e consciente",
+                "Se não estiver respirando, inicie RCP",
+                "Trate as queimaduras visíveis com água corrente",
+                "Mantenha a pessoa deitada e aquecida"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA toque na pessoa se ela ainda estiver em contato com a fonte elétrica",
+                "Não use materiais molhados ou metálicos para afastar a vítima",
+                "Não subestime - pode haver danos internos graves"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) SEMPRE em casos de choque elétrico - mesmo se parecer bem, há risco de arritmia cardíaca",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Choque_el%C3%A9trico"
+        },
+        {
+            "id": 10,
+            "nome": "Hemorragia",
+            "categoria": "Trauma",
+            "gravidade": "alta",
+            "icone": "🩸",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Bleeding_finger.jpg/640px-Bleeding_finger.jpg",
+            "sinais": [
+                "Sangramento intenso que não para",
+                "Sangue vermelho vivo em jatos (arterial - grave)",
+                "Palidez, suor frio, tontura (sinais de perda de sangue)",
+                "Confusão e fraqueza"
+            ],
+            "oqueFazer": [
+                "Use luvas ou saco plástico para se proteger",
+                "Pressione firmemente o local com pano limpo",
+                "Mantenha a pressão contínua por pelo menos 10 minutos",
+                "Se possível, eleve o membro acima do nível do coração",
+                "Se o pano encharcar, coloque outro por cima sem remover o primeiro"
+            ],
+            "oqueNaoFazer": [
+                "Não remova o pano para verificar - isso reinicia o sangramento",
+                "Não use torniquete a menos que seja o único recurso",
+                "Não retire objetos encravados - estabilize-os",
+                "Não lave ferimentos que sangram muito"
+            ],
+            "quandoChamarAjuda": "Ligue 192 se: sangramento não parar após 10 minutos, for sangue em jatos, ou a pessoa apresentar sinais de choque",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Hemorragia"
+        },
+        {
+            "id": 11,
+            "nome": "Fratura",
+            "categoria": "Trauma",
+            "gravidade": "média",
+            "icone": "🦴",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Broken_arm_in_a_splint.jpg/640px-Broken_arm_in_a_splint.jpg",
+            "sinais": [
+                "Dor intensa que piora ao movimentar",
+                "Inchaço e hematoma no local",
+                "Deformidade visível do membro",
+                "Dificuldade ou incapacidade de mover",
+                "Som de estalo no momento da lesão"
+            ],
+            "oqueFazer": [
+                "Não movimente a área afetada",
+                "Imobilize o membro na posição em que está",
+                "Use talas improvisadas (revista, papelão, cabo de vassoura)",
+                "Coloque gelo envolvido em pano sobre o local para reduzir inchaço",
+                "Mantenha a pessoa calma e imóvel"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA tente colocar o osso no lugar",
+                "Não movimente a vítima desnecessariamente",
+                "Não faça massagem no local",
+                "Não dê alimentos ou bebidas (pode precisar de cirurgia)"
+            ],
+            "quandoChamarAjuda": "Ligue 192 se: osso exposto, fratura em pescoço/coluna/bacia, deformidade grave, ou perda de sensibilidade",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Fratura_%C3%B3ssea"
+        },
+        {
+            "id": 12,
+            "nome": "Corte Profundo",
+            "categoria": "Trauma",
+            "gravidade": "média",
+            "icone": "🔪",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Vulnus_incisivum.jpg/640px-Vulnus_incisivum.jpg",
+            "sinais": [
+                "Ferimento aberto com sangramento",
+                "Bordas do corte separadas",
+                "Possível visualização de tecido interno",
+                "Dor no local"
+            ],
+            "oqueFazer": [
+                "Lave as mãos e use luvas se possível",
+                "Lave o ferimento com água limpa e sabão (se sangramento controlado)",
+                "Pressione com pano limpo para estancar o sangue",
+                "Aproxime as bordas do corte e aplique curativo",
+                "Mantenha o curativo limpo e seco"
+            ],
+            "oqueNaoFazer": [
+                "Não use algodão diretamente no corte",
+                "Não retire objetos encravados",
+                "Não assopre o ferimento",
+                "Não use água oxigenada ou álcool dentro do corte (mata tecido saudável)"
+            ],
+            "quandoChamarAjuda": "Procure atendimento se: corte maior que 2cm, muito profundo, não para de sangrar, ou foi causado por objeto enferrujado",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Ferida"
+        },
+        {
+            "id": 13,
+            "nome": "Convulsão",
+            "categoria": "Neurológico",
+            "gravidade": "alta",
+            "icone": "🧠",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Epileptic_seizure_first_aid.svg/640px-Epileptic_seizure_first_aid.svg.png",
+            "sinais": [
+                "Movimentos involuntários e rítmicos do corpo",
+                "Perda de consciência",
+                "Rigidez muscular seguida de tremores",
+                "Salivação excessiva",
+                "Possível perda de controle da bexiga"
+            ],
+            "oqueFazer": [
+                "Mantenha a calma e marque o tempo da convulsão",
+                "Afaste objetos perigosos ao redor",
+                "Proteja a cabeça colocando algo macio embaixo",
+                "Vire a pessoa de lado após a convulsão (posição de recuperação)",
+                "Fique ao lado até a pessoa se recuperar completamente"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA coloque nada na boca da pessoa",
+                "Não segure a pessoa tentando impedir os movimentos",
+                "Não jogue água",
+                "Não tente acordar a pessoa durante a convulsão"
+            ],
+            "quandoChamarAjuda": "Ligue 192 se: convulsão durar mais de 5 minutos, pessoa não recuperar consciência, ou for a primeira convulsão",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Convuls%C3%A3o"
+        },
+        {
+            "id": 14,
+            "nome": "Afogamento",
+            "categoria": "Respiratório",
+            "gravidade": "alta",
+            "icone": "🌊",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Lifeguard_rescue.jpg/640px-Lifeguard_rescue.jpg",
+            "sinais": [
+                "Pessoa submersa ou se debatendo na água",
+                "Tosse intensa e dificuldade para respirar após sair da água",
+                "Lábios arroxeados",
+                "Inconsciência"
+            ],
+            "oqueFazer": [
+                "Retire a pessoa da água com segurança (não vire vítima se suspeitar lesão na coluna)",
+                "Deite-a de costas em superfície firme",
+                "Verifique se está respirando",
+                "Se não respirar, inicie RCP imediatamente",
+                "Se respirar, coloque em posição de recuperação (de lado)"
+            ],
+            "oqueNaoFazer": [
+                "Não entre na água se não souber nadar bem",
+                "Não tente fazer a água sair virando a pessoa de cabeça para baixo",
+                "Não faça compressão no abdômen para expelir água",
+                "Não deixe a pessoa sozinha mesmo se parecer bem"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) SEMPRE em casos de afogamento - mesmo se a pessoa parecer recuperada",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Afogamento"
+        },
+        {
+            "id": 15,
+            "nome": "Intoxicação / Envenenamento",
+            "categoria": "Emergência",
+            "gravidade": "alta",
+            "icone": "☠️",
+            "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Skull_and_crossbones.svg/640px-Skull_and_crossbones.svg.png",
+            "sinais": [
+                "Náuseas, vômitos e dor abdominal",
+                "Tontura e confusão mental",
+                "Dificuldade para respirar",
+                "Queimaduras ao redor da boca (produtos químicos)",
+                "Embalagens abertas de medicamentos ou produtos de limpeza"
+            ],
+            "oqueFazer": [
+                "Identifique o que foi ingerido, quanto e há quanto tempo",
+                "Guarde a embalagem ou amostra do produto",
+                "Ligue para o CIATOX: 0800-722-6001",
+                "Se a pessoa estiver consciente, não a deixe sozinha",
+                "Se houver produto na pele ou olhos, lave com água abundante"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA provoque vômito (pode causar mais danos)",
+                "Não dê leite, água ou qualquer líquido sem orientação médica",
+                "Não espere os sintomas piorarem para buscar ajuda",
+                "Não dê medicamentos por conta própria"
+            ],
+            "quandoChamarAjuda": "Ligue CIATOX 0800-722-6001 ou 192 (SAMU) IMEDIATAMENTE em qualquer suspeita de intoxicação",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Intoxica%C3%A7%C3%A3o"
+        },
+        {
+            "id": 16,
+            "nome": "AVC (Derrame)",
+            "categoria": "Neurológico",
+            "gravidade": "alta",
+            "icone": "🧠",
+            "sinais": [
+                "Rosto caído de um lado (peça para sorrir)",
+                "Braço fraco - não consegue levantar os dois iguais",
+                "Fala enrolada ou confusa",
+                "Dor de cabeça súbita e muito forte",
+                "Perda de visão ou visão dupla"
+            ],
+            "oqueFazer": [
+                "Use o método SAMU: Sorriso (caído?), Abraço (fraco?), Música (fala enrolada?), Urgente (ligue 192)",
+                "Anote o horário exato que os sintomas começaram",
+                "Deite a pessoa com a cabeça levemente elevada",
+                "Afrouxe roupas apertadas",
+                "Não dê nada para comer ou beber",
+                "Mantenha a pessoa calma até o SAMU chegar"
+            ],
+            "oqueNaoFazer": [
+                "Não espere os sintomas passarem - tempo é cérebro",
+                "Não dê medicamentos por conta própria",
+                "Não deixe a pessoa dormir sem avaliação médica",
+                "Não ignore sintomas leves - podem piorar rapidamente"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) IMEDIATAMENTE ao identificar qualquer sinal - o tratamento nas primeiras 4 horas é crucial",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Acidente_vascular_cerebral"
+        },
+        {
+            "id": 17,
+            "nome": "Crise de Asma",
+            "categoria": "Respiratório",
+            "gravidade": "alta",
+            "icone": "😤",
+            "sinais": [
+                "Dificuldade para respirar e falta de ar",
+                "Chiado no peito ao respirar",
+                "Tosse seca persistente",
+                "Lábios ou unhas azuladas (grave)",
+                "Dificuldade para falar frases completas"
+            ],
+            "oqueFazer": [
+                "Mantenha a pessoa calma - pânico piora a crise",
+                "Ajude-a a sentar em posição confortável, levemente inclinada para frente",
+                "Se tiver bombinha (broncodilatador), ajude a usar: 2 a 4 jatos",
+                "Afrouxe roupas apertadas no peito e pescoço",
+                "Afaste de possíveis gatilhos (poeira, fumaça, pelos)"
+            ],
+            "oqueNaoFazer": [
+                "Não deite a pessoa - dificulta a respiração",
+                "Não ofereça água durante a crise intensa",
+                "Não deixe a pessoa sozinha",
+                "Não use mais que o recomendado da bombinha sem orientação"
+            ],
+            "quandoChamarAjuda": "Ligue 192 se: lábios ficarem azulados, a bombinha não fizer efeito, dificuldade extrema para respirar, ou a pessoa não conseguir falar",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Asma"
+        },
+        {
+            "id": 18,
+            "nome": "Reação Alérgica Grave (Anafilaxia)",
+            "categoria": "Emergência",
+            "gravidade": "alta",
+            "icone": "🚨",
+            "sinais": [
+                "Inchaço rápido no rosto, lábios ou garganta",
+                "Dificuldade para respirar ou engolir",
+                "Urticária (placas vermelhas pelo corpo)",
+                "Tontura e queda de pressão",
+                "Náusea, vômito ou dor abdominal"
+            ],
+            "oqueFazer": [
+                "Ligue 192 (SAMU) imediatamente",
+                "Se a pessoa tiver caneta de adrenalina (EpiPen), ajude a aplicar na coxa",
+                "Deite a pessoa e eleve as pernas (se não tiver dificuldade para respirar)",
+                "Se tiver dificuldade para respirar, mantenha sentada",
+                "Afrouxe roupas apertadas",
+                "Monitore a respiração até o socorro chegar"
+            ],
+            "oqueNaoFazer": [
+                "Não espere para ver se melhora - anafilaxia é fatal se não tratada",
+                "Não dê medicamentos orais se houver inchaço na garganta",
+                "Não deixe a pessoa em pé - pode desmaiar",
+                "Não ofereça água ou alimentos"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) IMEDIATAMENTE - anafilaxia pode matar em minutos sem tratamento",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Anafilaxia"
+        },
+        {
+            "id": 19,
+            "nome": "Sangramento Nasal",
+            "categoria": "Trauma",
+            "gravidade": "media",
+            "icone": "👃",
+            "sinais": [
+                "Sangue saindo por uma ou ambas as narinas",
+                "Sensação de sangue escorrendo pela garganta",
+                "Pode ocorrer após trauma, clima seco ou espontaneamente"
+            ],
+            "oqueFazer": [
+                "Sente a pessoa com a cabeça levemente inclinada para FRENTE",
+                "Aperte as narinas (parte mole do nariz) com os dedos por 10-15 minutos",
+                "Respire pela boca durante esse tempo",
+                "Aplique compressa fria na nuca ou no nariz",
+                "Após parar, evite assoar o nariz por algumas horas"
+            ],
+            "oqueNaoFazer": [
+                "NÃO incline a cabeça para trás - o sangue vai para a garganta",
+                "Não assoe o nariz para tentar limpar",
+                "Não coloque algodão ou papel dentro do nariz",
+                "Não deite a pessoa"
+            ],
+            "quandoChamarAjuda": "Procure atendimento se: sangramento não parar após 20 minutos, for após trauma forte na cabeça, ou ocorrer com frequência",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Epistaxe"
+        },
+        {
+            "id": 20,
+            "nome": "Picada de Inseto / Animal Peçonhento",
+            "categoria": "Emergência",
+            "gravidade": "alta",
+            "icone": "🦂",
+            "sinais": [
+                "Dor intensa no local da picada",
+                "Inchaço e vermelhidão",
+                "Formigamento ou dormência",
+                "Náusea, vômito ou sudorese",
+                "Dificuldade para respirar (reação alérgica)"
+            ],
+            "oqueFazer": [
+                "Mantenha a pessoa calma e imóvel (movimento espalha o veneno)",
+                "Lave o local com água e sabão",
+                "Mantenha o membro picado abaixo do nível do coração",
+                "Tire anéis, pulseiras e roupas apertadas antes de inchar",
+                "Se possível, fotografe ou memorize o animal para identificação",
+                "Leve ao hospital IMEDIATAMENTE"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA faça torniquete ou garrote",
+                "Não corte o local da picada",
+                "Não tente sugar o veneno com a boca",
+                "Não aplique gelo diretamente, folhas ou outras substâncias",
+                "Não dê bebida alcoólica"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) imediatamente em qualquer picada de cobra, escorpião, aranha ou animal desconhecido",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Picada"
+        },
+        {
+            "id": 21,
+            "nome": "Insolação / Hipertermia",
+            "categoria": "Clínico",
+            "gravidade": "alta",
+            "icone": "☀️",
+            "sinais": [
+                "Temperatura corporal acima de 40°C",
+                "Pele quente, vermelha e SECA (sem suor)",
+                "Dor de cabeça forte e confusão mental",
+                "Tontura, náusea e vômito",
+                "Pulso rápido e forte"
+            ],
+            "oqueFazer": [
+                "Leve a pessoa para local fresco e sombreado",
+                "Remova roupas em excesso",
+                "Resfrie o corpo: molhe com água fria, use ventilador, aplique panos úmidos",
+                "Coloque compressas frias nas axilas, virilha e pescoço",
+                "Se consciente, ofereça água fresca em pequenos goles"
+            ],
+            "oqueNaoFazer": [
+                "Não dê medicamentos para febre (não funcionam em insolação)",
+                "Não use gelo diretamente na pele",
+                "Não ofereça bebidas alcoólicas ou com cafeína",
+                "Não deixe a pessoa em local quente"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) imediatamente - insolação é emergência médica com risco de danos cerebrais",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Insola%C3%A7%C3%A3o"
+        },
+        {
+            "id": 22,
+            "nome": "Hipotermia",
+            "categoria": "Clínico",
+            "gravidade": "alta",
+            "icone": "🥶",
+            "sinais": [
+                "Tremores intensos (param em hipotermia grave)",
+                "Pele fria e pálida ou azulada",
+                "Fala enrolada e confusão mental",
+                "Movimentos lentos e descoordenados",
+                "Sonolência extrema"
+            ],
+            "oqueFazer": [
+                "Leve a pessoa para local aquecido e protegido do vento",
+                "Remova roupas molhadas e cubra com cobertores secos",
+                "Aqueça gradualmente: começando pelo tronco, não pelas extremidades",
+                "Ofereça bebidas mornas (não quentes) se consciente",
+                "Use seu próprio corpo para aquecer se necessário"
+            ],
+            "oqueNaoFazer": [
+                "Não aqueça as extremidades primeiro (leva sangue frio ao coração)",
+                "Não use água quente ou calor direto (causa choque)",
+                "Não dê bebidas alcoólicas",
+                "Não esfregue as extremidades",
+                "Não deixe a pessoa fazer esforço físico"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) se: a pessoa parar de tremer, ficar confusa, sonolenta ou inconsciente",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Hipotermia"
+        },
+        {
+            "id": 23,
+            "nome": "Corpo Estranho no Olho",
+            "categoria": "Acidentes",
+            "gravidade": "media",
+            "icone": "👁️",
+            "sinais": [
+                "Sensação de areia ou cisco no olho",
+                "Lacrimejamento excessivo",
+                "Vermelhidão e irritação",
+                "Dificuldade para abrir o olho",
+                "Visão embaçada"
+            ],
+            "oqueFazer": [
+                "Lave as mãos antes de tocar no olho",
+                "Lave o olho com água limpa ou soro fisiológico por vários minutos",
+                "Puxe a pálpebra superior sobre a inferior para estimular lágrimas",
+                "Se visualizar o objeto solto, tente remover com cotonete úmido",
+                "Cubra o olho com gaze limpa sem pressionar"
+            ],
+            "oqueNaoFazer": [
+                "NÃO esfregue o olho",
+                "Não tente remover objetos cravados ou grudados",
+                "Não use pinças ou objetos pontiagudos",
+                "Não use colírios sem orientação médica",
+                "Não force a abertura do olho"
+            ],
+            "quandoChamarAjuda": "Procure oftalmologista urgente se: objeto cravado, produto químico, dor intensa, alteração na visão, ou objeto não sair com lavagem",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Corpo_estranho"
+        },
+        {
+            "id": 24,
+            "nome": "Entorse",
+            "categoria": "Trauma",
+            "gravidade": "media",
+            "icone": "🦶",
+            "sinais": [
+                "Dor no local da articulação (tornozelo, punho, joelho)",
+                "Inchaço rápido",
+                "Hematoma (roxo) nas horas seguintes",
+                "Dificuldade para movimentar ou apoiar peso",
+                "Estalos no momento da lesão"
+            ],
+            "oqueFazer": [
+                "Use o protocolo PRICE: Proteção, Repouso, Ice (gelo), Compressão, Elevação",
+                "Aplique gelo envolvido em pano por 20 minutos a cada 2 horas",
+                "Faça compressão com bandagem elástica (não muito apertada)",
+                "Eleve o membro acima do nível do coração",
+                "Evite apoiar peso nas primeiras 48 horas"
+            ],
+            "oqueNaoFazer": [
+                "Não aplique calor nas primeiras 48 horas",
+                "Não massageie o local lesionado",
+                "Não force movimentos",
+                "Não ignore - pode haver fratura associada"
+            ],
+            "quandoChamarAjuda": "Procure atendimento se: deformidade visível, incapacidade total de mover, dormência, ou dor muito intensa",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Entorse"
+        },
+        {
+            "id": 25,
+            "nome": "Crise de Pânico",
+            "categoria": "Neurológico",
+            "gravidade": "media",
+            "icone": "😰",
+            "sinais": [
+                "Sensação súbita de medo intenso ou terror",
+                "Coração acelerado e palpitações",
+                "Falta de ar e sensação de sufocamento",
+                "Tremores e sudorese",
+                "Formigamento nas mãos e sensação de irrealidade"
+            ],
+            "oqueFazer": [
+                "Mantenha a calma e fale com voz tranquila",
+                "Leve a pessoa para local calmo e silencioso",
+                "Ajude a controlar a respiração: inspire 4 segundos, segure 4, expire 4",
+                "Mantenha contato visual e seja uma presença segura",
+                "Lembre que a crise vai passar em alguns minutos"
+            ],
+            "oqueNaoFazer": [
+                "Não diga 'se acalme' ou 'não é nada' - invalida o sentimento",
+                "Não deixe a pessoa sozinha",
+                "Não force respirar em saco de papel (pode ser perigoso)",
+                "Não sacuda ou grite com a pessoa"
+            ],
+            "quandoChamarAjuda": "Procure atendimento se: for a primeira crise, sintomas durarem mais de 20 minutos, ou houver dor no peito (para descartar infarto)",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Ataque_de_p%C3%A2nico"
+        },
+        {
+            "id": 26,
+            "nome": "Hipoglicemia (Queda de Açúcar)",
+            "categoria": "Clínico",
+            "gravidade": "alta",
+            "icone": "🍬",
+            "sinais": [
+                "Tremores e sudorese fria",
+                "Fome súbita e intensa",
+                "Confusão mental e irritabilidade",
+                "Visão turva e tontura",
+                "Palpitações e fraqueza"
+            ],
+            "oqueFazer": [
+                "Se consciente, dê açúcar de ação rápida: suco de fruta, refrigerante normal, balas ou mel",
+                "Quantidade: 15g de carboidrato (1 colher de sopa de açúcar ou 200ml de suco)",
+                "Espere 15 minutos e reavalie",
+                "Após melhorar, ofereça um lanche com carboidrato complexo",
+                "Se diabético, ajude a verificar a glicemia"
+            ],
+            "oqueNaoFazer": [
+                "Não dê alimentos se a pessoa estiver inconsciente (risco de engasgo)",
+                "Não dê produtos diet ou light (não têm açúcar)",
+                "Não deixe a pessoa sozinha",
+                "Não ignore os sintomas - pode evoluir para desmaio"
+            ],
+            "quandoChamarAjuda": "Ligue 192 se: a pessoa desmaiar, não melhorar após 15 minutos, ou não conseguir engolir",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Hipoglicemia"
+        },
+        {
+            "id": 27,
+            "nome": "Mordida de Animal",
+            "categoria": "Trauma",
+            "gravidade": "media",
+            "icone": "🐕",
+            "sinais": [
+                "Ferimento com marcas de dentes",
+                "Sangramento variável",
+                "Dor e inchaço no local",
+                "Risco de infecção e raiva"
+            ],
+            "oqueFazer": [
+                "Lave o ferimento abundantemente com água e sabão por 5-10 minutos",
+                "Deixe a água correr sobre a ferida",
+                "Aplique antisséptico (povidona ou clorexidina)",
+                "Cubra com curativo limpo",
+                "Tente identificar o animal e seu dono",
+                "Procure atendimento médico para avaliar vacina antirrábica"
+            ],
+            "oqueNaoFazer": [
+                "Não feche o ferimento com pontos antes de avaliação médica",
+                "Não ignore mordidas pequenas - todas podem infectar",
+                "Não mate o animal - ele precisa ser observado por 10 dias",
+                "Não aplique produtos caseiros na ferida"
+            ],
+            "quandoChamarAjuda": "Procure atendimento médico SEMPRE, especialmente se: animal desconhecido ou selvagem, mordida profunda, no rosto ou mãos",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Mordedura"
+        },
+        {
+            "id": 28,
+            "nome": "Estado de Choque",
+            "categoria": "Emergência",
+            "gravidade": "alta",
+            "icone": "⚠️",
+            "sinais": [
+                "Pele fria, pálida e pegajosa",
+                "Respiração rápida e superficial",
+                "Pulso fraco e acelerado",
+                "Confusão mental ou inconsciência",
+                "Sede intensa e ansiedade"
+            ],
+            "oqueFazer": [
+                "Ligue 192 (SAMU) imediatamente",
+                "Deite a pessoa de costas e eleve as pernas 20-30cm",
+                "Controle sangramentos visíveis com pressão",
+                "Mantenha a pessoa aquecida com cobertores",
+                "Afrouxe roupas apertadas",
+                "Monitore respiração e consciência"
+            ],
+            "oqueNaoFazer": [
+                "Não eleve as pernas se houver trauma na cabeça, pescoço ou coluna",
+                "Não dê nada para beber ou comer",
+                "Não mova a pessoa desnecessariamente",
+                "Não deixe a pessoa sozinha"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) IMEDIATAMENTE - choque é emergência com risco de morte",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Choque_circulat%C3%B3rio"
+        },
+        {
+            "id": 29,
+            "nome": "Ferimento por Objeto Perfurante",
+            "categoria": "Trauma",
+            "gravidade": "alta",
+            "icone": "🔪",
+            "sinais": [
+                "Objeto cravado no corpo (faca, vidro, metal)",
+                "Sangramento ao redor do objeto",
+                "Dor intensa no local",
+                "Possível sangramento interno (palidez, fraqueza)"
+            ],
+            "oqueFazer": [
+                "NÃO remova o objeto - ele pode estar contendo o sangramento",
+                "Estabilize o objeto com curativos ao redor (tipo sanduíche)",
+                "Controle o sangramento ao redor com pressão suave",
+                "Mantenha a pessoa imóvel",
+                "Monitore sinais de choque (palidez, suor frio)"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA puxe ou remova o objeto cravado",
+                "Não movimente o objeto",
+                "Não dê comida ou bebida (pode precisar de cirurgia)",
+                "Não deixe a pessoa andar"
+            ],
+            "quandoChamarAjuda": "Ligue 192 (SAMU) IMEDIATAMENTE em qualquer ferimento por objeto perfurante",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Ferimento_penetrante"
+        },
+        {
+            "id": 30,
+            "nome": "Luxação",
+            "categoria": "Trauma",
+            "gravidade": "media",
+            "icone": "💪",
+            "sinais": [
+                "Deformidade visível na articulação",
+                "Dor intensa ao mínimo movimento",
+                "Inchaço rápido no local",
+                "Incapacidade de mover a articulação",
+                "Possível dormência abaixo da lesão"
+            ],
+            "oqueFazer": [
+                "Imobilize a articulação na posição em que está",
+                "Use tipoia para braço ou apoio para perna",
+                "Aplique gelo envolvido em pano por 20 minutos",
+                "Mantenha o membro elevado se possível",
+                "Leve ao hospital para redução (recolocação)"
+            ],
+            "oqueNaoFazer": [
+                "NUNCA tente colocar o osso no lugar - pode causar danos graves",
+                "Não force movimentos",
+                "Não massageie o local",
+                "Não aplique calor"
+            ],
+            "quandoChamarAjuda": "Procure atendimento médico SEMPRE - luxação precisa ser tratada por profissional. Ligue 192 se houver dormência ou palidez no membro",
+            "saibaMais": "https://pt.wikipedia.org/wiki/Luxa%C3%A7%C3%A3o"
+        }
+    ]
+}
